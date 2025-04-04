@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Boldonse&display=swap");
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(214, 20, 20);
+  position: sticky;
+  top: 0;
+  opacity: 80%;
+}
+.imagebar img {
+  width: 100px;
+  height: 100px;
+  padding-left: 30px;
+}
+body {
+  background-color: rgb(20, 20, 20);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.pao a {
+  color: black;
+  text-decoration: none;
+  transition: 0.8s;
+  font-family: "Boldonse", system-ui;
+}
+.pao {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding-right: 30px;
+}
+.pao a:hover {
+  color: rgb(255, 255, 255);
+  transform: scale(1.5);
+}
+.bv {
+  color: aliceblue;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Boldonse", system-ui;
+  padding: 20px;
+}
+.oq {
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+  text-align: center;
+  font-family: "Boldonse", system-ui;
+}
+.in {
+  color: aliceblue;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Boldonse", system-ui;
+}
+.ino {
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+  text-align: center;
+  font-family: "Boldonse", system-ui;
+}
+  
+.dt {
+  color: rgb(247, 2, 2);
+  font-size: 20px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.grid {
+  background-color: rgb(19, 18, 20);
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  border: 1px solid #e7e7e7;
+  padding: 20px;
+  background-size: 50%;
+}
+
+.grid {
+  color: aliceblue;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Boldonse", system-ui;
+}
+img {
+  height: 200px;
+}
+.img {
+  text-align: center;
+}
+.home a {
+  color: rgba(0, 0, 0, 0.758);
+  text-decoration: none;
+  transition: 0.8s;
+  font-family: "Boldonse", system-ui;
+}
+.form {
+  color: #e7e7e7;
+  padding: 30px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 50PX;
+  
+}
+.ovo{
+font-size: 20px;
+padding: 30px;
+border: 1px solid #ccc; padding: 10px; height: 200px; overflow: auto;
+}
+.enviar {
+padding: 40px;
+
+}
