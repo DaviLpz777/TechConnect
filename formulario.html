@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>formulario</title>
+  <link rel="stylesheet" href="/Style.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="home">
+      <a href="/index.html">VOLTAR</a>
+    </div>
+  </div>
+  <div class="form">
+    <label for="nome">Nome completo</label>
+    <input type="text" id="nome" name="nome" placeholder="nome completo"required >
+    <label for="email">Email  </label>
+    <input type="email"id="email" name="email"><br> <br>
+    <input type="radio" id="otimo" name="avaliacao" value="Ótimo"> 
+            <label for="otimo">PRESENCIAL</label><br>
+            <input type="radio" id="bom" name="avaliacao" value="Bom">
+            <label for="bom">ONLINE</label><br> <br>
+            
+            
+            <div class="ovo" >
+              <h2>Aceitação de Termos e Condições</h2>
+      <p>Leia os termos e condições abaixo:</p>
+        <h3>Termos e Condições</h3>
+        <p>Aqui ficam os detalhes dos seus termos e condições...</p>
+         <p>O participante concorda em participar de uma pesquisa, sabendo que não receberá nada em troca e que pode desistir quando quiser. </p>
+         <p>O termo deve conter dados do paciente, do médico responsável e do médico alternativo. </p>
+         <p>Deve também conter informações sobre os procedimentos, objetivos, justificativas, riscos e desconfortos. </p>
+    </div>
+    
+    <form action="/enviar" method="POST">
+        <label for="aceite">
+            <input type="checkbox" id="aceite" name="aceite" required>
+            Eu aceito os termos e condições.
+      
+        </label><br><br>
+
+   </fieldset>
+    <fieldset>
+    </div>
+    <div class="enviar">
+      <input type="reset">
+      <input type="submit">  
+    </div>
+  
+</body>
+</html>
